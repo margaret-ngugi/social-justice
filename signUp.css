@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url("../image/front-view-vegetable.jpg");
+    /* border: 2px solid red; */
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .formcontainer input {
+    /* width: 30%; */
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+  }
+  .formcontainer label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  .formcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  form {
+    width: 50%;
+    min-height: 90vh;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+  }
+  #loginLink {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  #loginLink a {
+    text-decoration: none;
+    margin-left: 5px;
+    color:#cf6521
+  }
+  .btn2section {
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: auto;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #cf6521;
+    padding: 15px 40px;
+    text-align: center;
+    font-weight: bold;
+    width:30%;
+  }
+  .formcontainer > * {
+    margin-top: 10px;
+  }
+  #groci {
+    color: #cf6521;
+  }
